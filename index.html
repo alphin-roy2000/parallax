@@ -6,9 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/css01.css">
-  <script src="js/js01.js"></script>
   <script src="js/lax.min.js" ></script>
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  <script type="text/javascript">
+  window.addEventListener("load",function() {
+    setTimeout(function(){
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+    }, 0);
+});
+
+  </script>
 </head>
 <body>
 
@@ -37,6 +45,13 @@
         $('nav').toggleClass('active')
       })
     })</script>
+    <script type="text/javascript">
+    $(window).scroll(function(){
+      $('.menu-toggle').removeClass('active')
+      $('nav').removeClass('active')
+    })
+    </script>
+
 <div class="container">
       <h1 class="lax" data-lax-opacity="0 1,100 0" data-lax-translate-y="0 0, 400 -400">Capture your Dream</h1>
     <div class="line lax" data-lax-opacity="0 1,100 0" ></div>
