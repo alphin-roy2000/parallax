@@ -188,7 +188,7 @@ p{
     height: 100%;
     top: 50%;
   }
-  .forest:before{
+  .forest:before,.bg:before{
     content: '';
     position: absolute;
     bottom: 0;
