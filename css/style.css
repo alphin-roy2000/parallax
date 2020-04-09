@@ -1,3 +1,4 @@
+
 body{
   margin: 0;
   padding: 0;
@@ -110,9 +111,8 @@ h1{
         top: -11%;
     }
     .loginbox{
-      margin-top: 5px;
-      bottom: auto;
-    }
+      height: auto;
+
   }
   .login-btn{
     background-color: crimson;
