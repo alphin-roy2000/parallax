@@ -111,7 +111,7 @@ nav.active{
 
 .container{
 
-  height: 100vh;
+  height: 95%;
   color: white;
 }
 
@@ -154,7 +154,7 @@ p{
 
 
 
-  .mountains,.forest,.moon,.bg,.forest,.balloon{
+  .mountains,.forest,.moon,.bg,.forest,.balloon,.alone{
     position: absolute;
    z-index: -1;
    width: 100%;
@@ -195,7 +195,47 @@ p{
     width: 100%;
     height: 40%;
     background: linear-gradient(to top,#191919,transparent);
-  }@media screen and (max-width:600px){
+  }
+
+  .about{
+    padding: 10px 5% 5% 5%;
+    width: 100%;
+    height: auto;
+    background: url(../images/sand.jpg);
+    background-position: center;
+    background-size: cover;
+
+  }
+
+  footer{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background: transparent;
+    box-shadow: 0   0 20px 2px rgba(0,0,0,0.5);
+  }
+
+    .footer_text{
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .footer_text a{
+      color: #1E90FF;
+    }
+.about h1{
+  font-family: 'palatino';
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+.about p{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width:600px){
     .mountains{
      background-image: url(../images/mountain1.png);
    }
@@ -213,4 +253,6 @@ p{
      background-image: url(../images/pine.png);
      height: 100%;
      top: 50%;
-   }}
+   }
+
+ .about img{display:none;}}
